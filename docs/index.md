@@ -1,19 +1,20 @@
-# Welcome to MkDocs
+# Unity Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### Introduction
+This Guide is intended for people new to the Unity Game Engine, focused on CST students looking to gain a base level of familiarity with game engines and early knowledge of object-oriented programming fundamentals. Unity is a popular game engine, used by many developers to create games such as *Rust* and *Hollow Knight*.
 
-## Commands
+By the end of this guide, you should have a game scene ready for use and expansion, including a scriptable player object.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Milestones
+- Create a new Unity Project
+- Prepare the enivronment/scene
+- Create/prepare a player object
+- add code to the player object
 
-## Project layout
+### Prerequisites
+To follow along, this guide requires that you have:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- A Win11 (22h2 or newer) capable computer that meets the minimum specs for Unity ([System requirements](https://docs.unity3d.com/6000.4/Documentation/Manual/system-requirements.html))
+- Unity hub and Unity Editor version 6.4 installed on your computer (**This guide will not cover installation**)
+- An IDE compatible with Unity (This guide will use Visual Studio Code)
 
-I don't like :beer:, and don't like :soccer: either.
