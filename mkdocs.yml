@@ -6,30 +6,30 @@ extra:
       link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 copyright: Copyright &copy; NEVER!! this is CREATIVE COMMONS, MOTHERFUCKERS! NO COPYRIGHT HERE!
 theme:
-    name: material
-    features:
+  name: material
+  features:
     - navigation.footer
-    font:
-      text: Roboto
-      code: Roboto Mono
-    icon:
-      logo: fontawesome/solid/l
-    palette:
-        #Dark Mode
-      - scheme: slate
-        toggle:
-          icon: material/weather-sunny
-          name: Dark mode
-        primary: green
-        accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/l
+  palette:
+    #Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
 
-        #(weirdo) Light Mode
-      - scheme: default
-        toggle:
-          icon: material/weather-night
-          name: Light mode
-        primary: blue
-        accent: deep orange
+      #(weirdo) Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
 
 markdown_extensions:
   - attr_list
@@ -43,11 +43,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences:
-        custom_fences:
+      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
-        alternate_style: true
+      alternate_style: true
   - admonition
   - pymdownx.details

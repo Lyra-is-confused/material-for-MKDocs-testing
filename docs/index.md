@@ -6,10 +6,13 @@ This Guide is intended for people new to the Unity Game Engine, focused on CST s
 By the end of this guide, you should have a game scene ready for use and expansion, including a scriptable player object.
 
 ### Milestones
-- Create a new Unity Project
-- Prepare the enivronment/scene
-- Create/prepare a player object
-- add code to the player object
+In this guide, you will:
+
+- [Create a new Unity Project](admonitions.md).
+- [Prepare the enivronment/scene](code-examples.md).
+- [Create/prepare a player object](content-tabs.md).
+- [add a basic movement script to the player object](diagrams.md).
+
 
 ### Prerequisites
 To follow along, this guide requires that you have:
@@ -17,4 +20,6 @@ To follow along, this guide requires that you have:
 - A Win11 (22h2 or newer) capable computer that meets the minimum specs for Unity ([System requirements](https://docs.unity3d.com/6000.4/Documentation/Manual/system-requirements.html))
 - Unity hub and Unity Editor version 6.4 installed on your computer (**This guide will not cover installation**)
 - An IDE compatible with Unity (This guide will use Visual Studio Code)
+
+
 
