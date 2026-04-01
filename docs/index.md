@@ -8,10 +8,10 @@ By the end of this guide, you should have a game scene ready for use and expansi
 ### Milestones
 In this guide, you will:
 
-- [Create a new Unity Project](admonitions.md).
-- [Prepare the enivronment/scene](code-examples.md).
-- [Create/prepare a player object](content-tabs.md).
-- [add a basic movement script to the player object](diagrams.md).
+- [Create a new Unity Project](Project-creation.md).
+- [Prepare the enivronment/scene](Scene-creation.md).
+- [Create/prepare a player object](player-model.md).
+- [add a basic movement script to the player object](your-first-program.md).
 
 
 ### Prerequisites
