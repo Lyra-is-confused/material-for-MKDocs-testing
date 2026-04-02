@@ -13,7 +13,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: fontawesome/solid/l
+    logo: fontawesome/solid/l #https://brandfetch.com/unity.com?view=library&library=default&collection=logos&asset=idwEUhrAlj&utm_source=https%253A%252F%252Fbrandfetch.com%252Funity.com&utm_medium=copyAction&utm_campaign=brandPageReferral
   palette:
     #Dark Mode
     - scheme: slate

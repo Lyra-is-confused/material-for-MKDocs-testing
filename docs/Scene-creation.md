@@ -2,11 +2,7 @@
 
 Once you have created your project following the steps [here](Project-creation.md), we will be greeted with our scene which have the following: **Main Camera**, **Directional Light** and **Global Volume**. We don't have to worry about these objects for now.
 
-<figure markdown="span">
-  ![Empty Scene](empty_scene.png){ width="700" height="700" }
-  
-<figcaption></figcaption>
-</figure>
+![Empty Scene](assets/empty_scene.png){ width="700" height="700" }
 
 ??? tip "Navigating the Scene"
 
