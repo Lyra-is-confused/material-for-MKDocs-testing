@@ -4,11 +4,6 @@ Before you start, you need to create a project for your game. One project can ha
 Open the Unity Hub. The Unity hub is how you manage both your projects and your editor installations. It's a rather handy piece of software for keeping Unity organized, and creating new Projects.
 
 ### Creating a New Unity Project
-<<<<<<< HEAD
-Open the Unity Hub. The Unity hub is how you manage both your projects and your editor installations. select the **Projects** tab in the left hand sidebar.
-  ![Project Creation](assets/HubMenu.png)
-=======
->>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
 
 1. Select the **Projects** tab in the left hand sidebar.
     ![Project Creation](HubMenu.png)
@@ -22,21 +17,6 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
     The Unity hub is a manager for your different unity projects and different installations of the unity editor. for this guide, you don't need to install a different version of the editor, so you can safely ignore alternate editors.
 
 
-<<<<<<< HEAD
-In the **Projects** tab, select either *New Project* buttons.
-![New Project](assets/CreateProject.png)
-
-If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
-
-
-Under *editor version*, ensure you have version *6000.4* (or the latest release avaliable) selected. Your window should look similar to this:
-![Select All](assets/maybeNeedMoveAll.png)
-Make sure to select the *All* tab, as it may automatically set you to the *Learning* tab.
-
-
-Next, select **New Project**, then select the **Universal 3D** template.
-![Selections and fields](assets/SelectionsAndFields.png)
-=======
 1. In the **Projects** tab, select either *New Project* buttons.
     ![New Project](CreateProject.png)
     If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
@@ -53,7 +33,6 @@ Next, select **New Project**, then select the **Universal 3D** template.
 
 1. Next, select **New Project**, then select the **Universal 3D** template.
     ![Select Universal 3D](SelectUniversalProject.png)
->>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
 
     we will use 3D for this tutorial, so make sure to Select **Universal 3D**.
 
