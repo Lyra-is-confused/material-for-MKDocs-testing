@@ -8,8 +8,6 @@ To create your player model, hover over the **GameObject** option on the top-bar
 
 
 ![Player Creation](assets/player1.png){ width="700" height="700" }
-Your player model will show up on the highlighted Hierarchy
-
 Alternatively, you can right-click on the Hierarchy, and follow the same steps as listed above.  
 
 
