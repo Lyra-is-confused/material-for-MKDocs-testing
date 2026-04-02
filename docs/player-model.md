@@ -16,4 +16,5 @@ Once you have done that, you will now see a fresh bean-looking model in your sce
 
 
 ![Created Player](assets/player-created.png){ width="700" height="700" }
-You scene and hierarchy should look similar to this
+
+Now, we will need to add a camera for the player

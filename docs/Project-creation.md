@@ -11,7 +11,7 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 >>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
 
 1. Select the **Projects** tab in the left hand sidebar.
-    ![Project Creation](HubMenu.png)
+    ![Project Creation](assets/HubMenu.png)
 
 ??? tip "Unity Hub Login"
 
@@ -38,13 +38,13 @@ Next, select **New Project**, then select the **Universal 3D** template.
 ![Selections and fields](assets/SelectionsAndFields.png)
 =======
 1. In the **Projects** tab, select either *New Project* buttons.
-    ![New Project](CreateProject.png)
+    ![New Project](assets/CreateProject.png)
     If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
 
 
 1. Under *editor version*, ensure you have version *6000.4* (or the latest release avaliable) selected. 
     Your window should look similar to this:
-    ![Select All](maybeNeedMoveAll.png)
+    ![Select All](assets/maybeNeedMoveAll.png)
 
     !!! warning 
 
@@ -52,7 +52,7 @@ Next, select **New Project**, then select the **Universal 3D** template.
 
 
 1. Next, select **New Project**, then select the **Universal 3D** template.
-    ![Select Universal 3D](SelectUniversalProject.png)
+    ![Select Universal 3D](assets/SelectUniversalProject.png)
 >>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
 
     we will use 3D for this tutorial, so make sure to Select **Universal 3D**.
@@ -63,7 +63,7 @@ Next, select **New Project**, then select the **Universal 3D** template.
 
 
 1. Name the project and indicate where to save the project files using the indicated fields.
-    ![Project name fields](fieldNames.png)
+    ![Project name fields](assets/fieldNames.png)
 
     we suggest you make a dedicated folder for your projects, something like:
     > C:\users\\[name]\UnityProjects
@@ -73,7 +73,7 @@ Next, select **New Project**, then select the **Universal 3D** template.
 
 1. Click on the **"+ Create Project"** button, and the editor will start up automatically!
     let the editor boot, and you should be greeted with the basic editor window:
-    ![Default Unity Editor Window](FirstTimeEditor.png)
+    ![Default Unity Editor Window](assets/FirstTimeEditor.png)
 
     !!! success
 
@@ -81,4 +81,23 @@ Next, select **New Project**, then select the **Universal 3D** template.
 
 ### Getting Familiar with the Editor
 1. The Project Hirearchy
-    This is how you will structure your project.
+
+    ![Hierarcy](assets/hierarchy.png)
+    
+    This is where you can add, remove or edit GameObjects, cameras, lighting, and everything else you would need for a game 
+
+2. The Inspector
+
+    ![Inspector](assets/inspector.png)
+
+    This is where you can edit the properties of your objects, and add scripts to the objects.
+
+3. Lastly, we have the 'terminal'
+
+    ![Terminal](assets/terminal.png)
+
+    This is where you will see all folders, scripts and textures you have created.
+    
+    !!! success
+
+        Awesome, you can now navigate unity, and we can move on to the next thing in this document. Scene Creation!
