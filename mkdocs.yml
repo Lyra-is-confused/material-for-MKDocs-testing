@@ -20,7 +20,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
+      primary: red
       accent: deep purple
 
       #(weirdo) Light Mode
@@ -28,7 +28,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
+      primary: red
       accent: deep orange
 
 markdown_extensions:

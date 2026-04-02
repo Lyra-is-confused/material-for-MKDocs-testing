@@ -1,54 +1,32 @@
-## Content Tabs
+# Project Creation and the Unity Editor
+Before you start, you need to create a project for your game. One project can have multiple scripts, scenes/environments, models, and a lot more! In this part of the guide, you will create a new project and learn some information about the unity editor's GUI.
 
-This is some examples of content tabs.
+### Creating a New Unity Project
+Open the Unity Hub. The Unity hub is how you manage both your projects and your editor installations. select the **Projects** tab in the left hand sidebar.
+  ![Project Creation](HubMenu.png)
 
-### Generic Content
+??? tip "Unity Hub Login"
 
-=== "Plain text"
+    If this is the first time you have launched the unity editor, it will ask you to log in first. This allows you to use collected asset store items, as well as using Unity version control (even though git is a better option). Log in using your preferred method, and then Unity Hub will begin installing the latest stable version of unity (v6000.4 as of this guide). Continue on after the installation has finished.
 
-    This is some plain text
+??? info "The Unity Hub"
 
-=== "Unordered list"
+    The Unity hub is a manager for your different unity projects and different installations of the unity editor. for this guide, you don't need to install a different version of the editor, so you can safely ignore alternate editors.
 
-    * First item
-    * Second item
-    * Third item
 
-=== "Ordered list"
+In the **Projects** tab, select either *New Project* buttons.
+![New Project](CreateProject.png)
 
-    1. First item
-    2. Second item
-    3. Third item
+If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
 
-### Code Blocks in Content Tabs
 
-=== "Python"
+Under *editor version*, ensure you have version *6000.4* (or the latest release avaliable) selected. Your window should look similar to this:
+![Select All](maybeNeedMoveAll.png)
+Make sure to select the *All* tab, as it may automatically set you to the *Learning* tab.
 
-    ```py
-    def main():
-        print("Hello world!")
 
-    if __name__ == "__main__":
-        main()
-    ```
+Next, select **New Project**, then select the **Universal 3D** template.
+![Selections and fields](SelectionsAndFields.png)
 
-=== "JavaScript"
+we will use 3D for this tutorial, and will not need the help of Unity's advanced rendering capabilities, so make sure to Select *Universal*, and not *High Definition*.
 
-    ```js
-    function main() {
-        console.log("Hello world!");
-    }
-
-    main();
-    ```
-    
-# Getting Started   
-Before you start, you need to create a project for your game. One project can have multiple scripts, scenes/environments, models, and a lot more! For this tutorial however, you'll only need a scene, a player model, and a script for that player model.
-
-To create your first project, open Unity hub, click on the **Projects** tab, select **New Project**, then your desired template. We will be choosing **Universal 3D** for our template.
-
-<figure markdown="span">
-  ![Project Creation](test.png){ width="700" height="700" }
-  
-<figcaption>Your new project should automatically open in Unity</figcaption>
-</figure>

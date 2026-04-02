@@ -1,9 +1,9 @@
 # Unity Guide
 
 ### Introduction
-This Guide is intended for people new to the Unity Game Engine, focused on CST students looking to gain a base level of familiarity with game engines and early knowledge of object-oriented programming fundamentals. Unity is a popular game engine, used by many developers to create games such as *Rust* and *Hollow Knight*.
+This Guide is intended for people new to the Unity Game Engine, focused on CST students looking to gain a base level of familiarity with game engines and early knowledge of object-oriented programming fundamentals. By the end of this guide, you should have a game scene ready for use and expansion, including a scriptable player object.
 
-By the end of this guide, you should have a game scene ready for use and expansion, including a scriptable player object.
+> Unity is a popular game engine, used by many developers to create games such as *Rust* and *Hollow Knight*.
 
 ### Milestones
 In this guide, you will:
