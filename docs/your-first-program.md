@@ -6,7 +6,16 @@ the basics of unity. ... add more
 
 In this part of the guide, we'll introduce you to programming in C# by writing a simple movement script (more maybe as well idk).
 
+```js title="code-examples.md" linenums="1" hl_lines="2-4"
+// Function to concatenate two strings
+function concatenateStrings(str1, str2) {
+  return str1 + str2;
+}
 
+// Example usage
+const result = concatenateStrings("Hello, ", "World!");
+console.log("The concatenated string is:", result);
+```
 
 <!-- for future use?
 !!! note "Title of the callout"

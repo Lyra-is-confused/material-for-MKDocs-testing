@@ -1,17 +1,18 @@
 # Scene Creation
 
+Once you have created your project following the steps [here](Project-creation.md), we will be greeted with our scene which have the following: **Main Camera**, **Directional Light** and **Global Volume**. We don't have to worry about these objects for now.
 
-This document will cover correctly configuring the Scene for your first unity program. Namely, ensuring that the correct .... The steps here will be the same regardless of your operating system. 
+<figure markdown="span">
+  ![Empty Scene](empty_scene.png){ width="700" height="700" }
+  
+<figcaption></figcaption>
+</figure>
 
+??? tip "Navigating the Scene"
 
-1. Open unity hub and install the latest Unity editor. 
+    Navigating the Scene can be difficult, so here are two quick tips: to move around, hold middle mouse button, and use drag your mouse to navigate. To just look around, hold right mouse button and drag your mouse to look around in your scene.
 
-
-
-2. 
-
-
-
+In this part of the guide, all we will be doing is adding a platform, so your player model has something to walk on. (add more steps if needed).
 
 
 # Diagram Examples
