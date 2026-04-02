@@ -1,9 +1,17 @@
 # Project Creation and the Unity Editor
 Before you start, you need to create a project for your game. One project can have multiple scripts, scenes/environments, models, and a lot more! In this part of the guide, you will create a new project and learn some information about the unity editor's GUI.
 
+Open the Unity Hub. The Unity hub is how you manage both your projects and your editor installations. It's a rather handy piece of software for keeping Unity organized, and creating new Projects.
+
 ### Creating a New Unity Project
+<<<<<<< HEAD
 Open the Unity Hub. The Unity hub is how you manage both your projects and your editor installations. select the **Projects** tab in the left hand sidebar.
   ![Project Creation](assets/HubMenu.png)
+=======
+>>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
+
+1. Select the **Projects** tab in the left hand sidebar.
+    ![Project Creation](HubMenu.png)
 
 ??? tip "Unity Hub Login"
 
@@ -14,6 +22,7 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
     The Unity hub is a manager for your different unity projects and different installations of the unity editor. for this guide, you don't need to install a different version of the editor, so you can safely ignore alternate editors.
 
 
+<<<<<<< HEAD
 In the **Projects** tab, select either *New Project* buttons.
 ![New Project](assets/CreateProject.png)
 
@@ -27,6 +36,49 @@ Make sure to select the *All* tab, as it may automatically set you to the *Learn
 
 Next, select **New Project**, then select the **Universal 3D** template.
 ![Selections and fields](assets/SelectionsAndFields.png)
+=======
+1. In the **Projects** tab, select either *New Project* buttons.
+    ![New Project](CreateProject.png)
+    If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
 
-we will use 3D for this tutorial, and will not need the help of Unity's advanced rendering capabilities, so make sure to Select *Universal*, and not *High Definition*.
 
+1. Under *editor version*, ensure you have version *6000.4* (or the latest release avaliable) selected. 
+    Your window should look similar to this:
+    ![Select All](maybeNeedMoveAll.png)
+
+    !!! warning 
+
+        Make sure to select the *All* tab, as it may automatically set you to the *Learning* tab.
+
+
+1. Next, select **New Project**, then select the **Universal 3D** template.
+    ![Select Universal 3D](SelectUniversalProject.png)
+>>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
+
+    we will use 3D for this tutorial, so make sure to Select **Universal 3D**.
+
+    ??? question "Why Universal and not High Definition?"
+
+        High Definition 3d uses Unity's advanced render pipeline, which is outside the scope of this guide. HDRP(High-Definition Render Pipeline) provides much better graphical fidelity, but is much more costly on the device running it. URP (Universal Render Pipeline) is built as a general-purpose structure, sacraficing some graphical fidelity for much better performance over all devices.
+
+
+1. Name the project and indicate where to save the project files using the indicated fields.
+    ![Project name fields](fieldNames.png)
+
+    we suggest you make a dedicated folder for your projects, something like:
+    > C:\users\\[name]\UnityProjects
+
+    This just makes sure you keep your computer organized and makes it easier to keep all game files self-contained for easy in-editor access.
+
+
+1. Click on the **"+ Create Project"** button, and the editor will start up automatically!
+    let the editor boot, and you should be greeted with the basic editor window:
+    ![Default Unity Editor Window](FirstTimeEditor.png)
+
+    !!! success
+
+        You have created your first project! let's get into How to make this into a game.
+
+### Getting Familiar with the Editor
+1. The Project Hirearchy
+    This is how you will structure your project.
