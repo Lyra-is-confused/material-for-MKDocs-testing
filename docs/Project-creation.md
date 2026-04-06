@@ -33,7 +33,6 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
 1. Next, select **New Project**, then select the **Universal 3D** template.
     ![Select Universal 3D](assets/SelectUniversalProject.png)
->>>>>>> 07f40d4 (finish project creation section and begin editor explanation)
 
     we will use 3D for this tutorial, so make sure to Select **Universal 3D**.
 
@@ -66,18 +65,40 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
     
     This is where you can add, remove or edit GameObjects, cameras, lighting, and everything else you would need for a game 
 
-2. The Inspector
+1. The Inspector
 
     ![Inspector](assets/inspector.png)
 
     This is where you can edit the properties of your objects, and add scripts to the objects.
 
-3. Lastly, we have the 'terminal'
+1. The Project tab
 
-    ![Terminal](assets/terminal.png)
+    ![Project Tab](assets/projectTab.png)
 
-    This is where you will see all folders, scripts and textures you have created.
-    
+    This is where you will see all folders, scripts, and textures you have created, along with any other files you need for the project.
+
+1. The Console tab
+
+    ![Console Tab](assets/consoleTab.png)
+
+    This is where you will see all folders, scripts, and textures you have created, along with any other files you need for the project.
+
+    the highlighted icons show the number of logs("!" in speech bubble), warnings(! in Triangle), and errors(! in octagon) in your code.
+
+    ??? info "Logs"
+
+        A log is any message printed to the console using a `Debug.Log("")` statement.
+  
+    ??? info "Warning"
+
+        A warning tells you that there may be an issue causing a program to not work as intended or a small syntax mismatch/error.
+        warnings don't impede the compilation or function of scripts, but are often things worth adressing.
+
+    ??? info "Errors"
+
+        An error is a message with information about problems impeding the compilation of code or runtime errors causing erratic/unintended behaviour.
+  
+
     !!! success
 
-        Awesome, you can now navigate unity, and we can move on to the next thing in this document. Scene Creation!
+        ## Awesome, you can now navigate unity, and we can move on to the next topic: **Scene Creation!**
