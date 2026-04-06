@@ -5,6 +5,16 @@ extra:
     - icon: simple/youtube
       link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 copyright: Copyright &copy; NEVER!! this is CREATIVE COMMONS, MOTHERFUCKERS! NO COPYRIGHT HERE!
+
+nav:
+    - Home: index.md
+    - Guide:
+        - Project Creation: Project-creation.md
+        - Scene Creation: Scene-creation.md
+        - Creating a Player Object: player-model.md
+        - First C# Program: your-first-program.md
+    - Glossary: glossary.md
+
 theme:
   name: material
   features:
