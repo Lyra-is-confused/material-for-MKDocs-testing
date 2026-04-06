@@ -15,6 +15,11 @@ Alternatively, you can right-click on the Hierarchy, and follow the same steps a
 Once you have done that, you will now see a fresh bean-looking model in your scene and in your hierarchy
 
 
-![Created Player](assets/player-created.png){ width="700" height="700" }
+![Created Player](assets/player-created.png){ width="700" height="700"}
 
-Now, we will need to add a camera for the player
+??? tip "Quick Editing"
+
+    If you need to get a good angle on your models, just select your model and hit 'F' on your keyboard.
+    This way, you don't have to keep fidgeting with your mouse to get the right angle. 
+
+Now, we will need to add a camera for the player model
