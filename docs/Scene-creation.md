@@ -19,7 +19,7 @@ In this part of the guide, all we will be doing is adding a platform, so your pl
 
     ![Hover](assets/hover.png)
 
-1. select either cube or plane, both work for a basic platforms
+1. select either cube or plane, both work for a basic platforms. I chose to use plane.
 
     ![select](assets/Screenshot%20(48).png)
 
@@ -35,32 +35,10 @@ Once you have selected the your object (either cube or plane), it is now time to
     ![Scaling](assets/Screenshot%20(51).png)
 
 
-1. Alternatively, you can use the "Transform" option in the Inspector
+1. Alternatively, you can use the "Transform" option in the Inspector:
 
-# Diagram Examples
+    ![Transform Option](assets/Screenshot%20(52).png)
 
-## Flowcharts
+??? question "Why would I use the alternative?" <!-- good wording? -->
 
-```mermaid
-graph LR
-  A[Start] --> B{Failure?};
-  B -->|Yes| C[Investigate...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Success!];
-```
-
-## Sequence Diagrams
-
-```mermaid
-sequenceDiagram
-  autonumber
-  Server->>Terminal: Send request
-  loop Health
-      Terminal->>Terminal: Check for health
-  end
-  Note right of Terminal: System online
-  Terminal-->>Server: Everything is OK
-  Terminal->>Database: Request customer data
-  Database-->>Terminal: Customer data
-```
+      You would use transform if you know the exact values you want, while the other option is mostly used to just mess around. In general, you would be using both these options, the first one would be used to play around with and get a good reference. Then, you would use the inspector to set precise values for scale, rotation and/or position of the objects.

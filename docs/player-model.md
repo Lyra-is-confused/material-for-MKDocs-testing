@@ -11,7 +11,7 @@ To create your player model, hover over the **GameObject** option on the top-bar
 Alternatively, you can right-click on the Hierarchy, and follow the same steps as listed above.  
 
 
-![Player Creation2](assets/alt.png){ width="700" height="700" }
+![Player Alt Creation](assets/alt.png){ width="700" height="700" }
 Once you have done that, you will now see a fresh bean-looking model in your scene and in your hierarchy
 
 
