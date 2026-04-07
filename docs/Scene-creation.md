@@ -18,7 +18,7 @@ Once you have created your project following [part 1](Project-creation.md), we w
     
     > you can also switch between a perspective and isometric view by clicking on the cube in the center.
 
-In this part of the guide, all we will be doing is adding a platform, so your player model has something to walk on. (add more steps if needed).
+In this part of the guide, all we will be doing is adding a platform, so your player model has something to walk on. 
 
 ### Adding a platform
 1. right-click on the hierarchy, and a menu will pop up
