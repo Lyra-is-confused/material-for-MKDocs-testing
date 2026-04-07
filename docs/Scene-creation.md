@@ -88,7 +88,21 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 ### Creating a Player model
 
-1. 
-1.
-1.
-1.
+Before we move onto scripting, we need to create a player model for your game. A player model can be something as simple as a bean, or something as complex as realistic humans. For this part of the tutorial, we will only be creating a simple "bean" player model.
+
+1. To start, right-click in the hierarchy window, Go to 3D Object and select "Capsule".
+1. ...
+1. ...
+1. ...
+
+Once you have done that, you will now see a fresh bean-looking model in your scene and in your hierarchy
+
+
+![Created Player](assets/player-created.png){ width="700" height="700"}
+
+??? tip "Quick Editing"
+
+    If you need to get a good angle on your models, just select your model and hit 'F' on your keyboard.
+    This way, you don't have to keep fidgeting with your mouse to get the right angle. 
+
+Now, we will need to add a camera for the player model

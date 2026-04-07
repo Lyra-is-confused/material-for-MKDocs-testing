@@ -9,9 +9,9 @@ This Guide is intended for people new to the Unity Game Engine, focused on CST s
 In this guide, you will:
 
 - [Create a new Unity Project](Project-creation.md).
-- [Prepare the enivronment/scene](Scene-creation.md).
-- [Create/prepare a player object](player-model.md).
-- [add a basic movement script to the player object](your-first-program.md).
+- [Prepare the enivronment/scene and player object](Scene-creation.md).
+- [add a basic movement script to the player object](player-script.md).
+- [add basic camera script to go along with the player object](camera-script.md).
 
 
 ### Prerequisites
