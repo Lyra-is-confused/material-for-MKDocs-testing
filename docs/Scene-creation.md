@@ -1,6 +1,6 @@
-# Scene Creation
+# Scene and Player Creation
 
-Once you have created your project following [part 1](Project-creation.md), we will be greeted with our scene which have the following: **Main Camera**, **Directional Light** and **Global Volume**. We don't have to worry about these objects for now.
+Once you have created your project following [part 1](Project-creation.md), we will be greeted with our scene, which has the following: **Main Camera**, **Directional Light** and **Global Volume**. To help get your bearings, we suggest reading the "Navigating the Scene" tip below.
 
 ![Empty Scene](assets/empty_scene.png){ width="700" height="700" }
 
@@ -18,37 +18,77 @@ Once you have created your project following [part 1](Project-creation.md), we w
     
     > you can also switch between a perspective and isometric view by clicking on the cube in the center.
 
-In this part of the guide, all we will be doing is adding a platform, so your player model has something to walk on. 
+In this part of the guide, all we will be doing is adding a platform and creating a player object.
 
-### Adding a platform
-1. right-click on the hierarchy, and a menu will pop up
+### Adding and modifying a platform
+This will give you a bit of familiarity with the tools in the scene editor.
 
-    ![Add object](assets/add.png){ width="700" height="700" }
+1. right-click in the hierarchy window, and a menu will pop up. Go to **3D Object** and click "Plane".
 
-1. hover over  
+    ![3D Object > Plane](assets/makePlane.png)
 
-    ![Hover](assets/hover.png)
+    This makes a 1x1 plane in your **Scene** window.
 
-1. select either cube or plane, both work for a basic platforms. I chose to use plane.
-
-    ![select](assets/Screenshot%20(48).png)
-
-### Scaling the platform
-Once you have selected the your object (either cube or plane), it is now time to scale it.
-
-1. Select "Scale" in the left toolbar of your Scene
-
-    ![Scale Select](assets/Screenshot%20(49).png)
-
-1. To scale your object, you have 3 thingies(idk what to call them). You can use the green to scale on the y-axis, red to scale on the x-axis, and blue to scale on the z-axis
+1. Select the *Scale* tool in the left toolbar of your Scene, and select the plane (orange outline). Use any of the coloured nodes to scale the platform.
+    - red scales on the x-axis
+    - green scales on the y-axis
+    - blue scales on the z-axis
 
     ![Scaling](assets/Screenshot%20(51).png)
+
+    !!! warning "Scaling!"
+
+        Unity scales from the center, so any scaling will extend both sides of the platform.
 
 
 1. Alternatively, you can use the "Transform" option in the Inspector:
 
     ![Transform Option](assets/Screenshot%20(52).png)
 
-??? question "Why would I use the alternative?" <!-- good wording? -->
+    ??? question "Why would I use the alternative?" 
 
-      You would use transform if you know the exact values you want, while the other option is mostly used to just mess around. In general, you would be using both these options, the first one would be used to play around with and get a good reference. Then, you would use the inspector to set precise values for scale, rotation and/or position of the objects.
+        You would use transform if you know the exact values you want, while the other option is used for rough proportions. In general, you would be using both these options, the first one would be used for quick prototyping and objects that don't require exact parameters. Then, you would use the inspector to set precise values for scale, rotation and/or position of the objects.
+      
+
+    no matter what method you choose, scale your platfom to your desired width and length (we chose 5x5).
+
+1. in the plane's **Inspector** window,find the dropdown menu titled **Layer** and expand it.
+    
+    ![Layer Dropdown](assets/LayerSelect1.png)
+
+1. select **Add Layer...** and under *User Layer 3*, type in *Ground*.
+
+    ![Make the Ground Layer](assets/MakeGroundLayer.png)
+
+    this creates a new *LayerMask*, and dictates what our player model should be standing on. we mainly use it for enabling/disabling the player's ability to jump based on whether the player is grounded or not.
+
+    make sure to go back to your plane's Inspector window and set *layer* to our new *Ground* layerMask.
+
+    ??? question "What the heck does "LayerMask" Mean?"
+
+        Think of LayerMasks similar to layers in photoshop or paint. We use layerMasks as a general way to group objects together, like setting obstacles in a course to the *Obstacle* layer, or all the enemies in a level to the *Enemy* layer. this is handy for our code, as it allows us to include many objects in one condition instead of having to directly reference them all individually.
+
+1. Let's Give the floor some colour. right click in your **Project** window and navigate to *Create* > *Material*.
+
+    ![Project > Create > Material](assets/MakeNewMaterial.png)
+
+    - Give the new Material a name, a simple one like *Floor Material* will work fine.
+    - In the material's Inspector, click on the long white bar across from *Base Map* and select a colour.
+
+    ![Select the White Bar](assets/newMaterialInspector.png)
+
+    - Once you're happy with your material, simply click and drag the material from the **Project** window onto the plane in your **Scene** window.
+
+    ![Click and Drag](assets/applyFloorTexture.gif)
+
+    ??? tip "Expanding your Materials"
+
+        The material editor is deceptively complex, and has a lot of power. Feel free to mess about with the sliders for *Metallic Map* and *Smoothness* to adjust your materials gloss and visual texture. 
+        It also gives options for all forms of detailed customization, such as normal and height maps. i suggest avoiding these if you are unfamiliar with them, as they can look terrible if done incorrectly.
+
+### Creating a Player model
+
+1. 
+1.
+1.
+1.
