@@ -79,7 +79,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
     - Once you're happy with your material, simply click and drag the material from the **Project** window onto the plane in your **Scene** window.
 
-    ![Click and Drag](assets/applyFloorTexture.gif)
+    ![Click and Drag](assets/applyFloorTexture.gif "Apply floor texture")
 
     ??? tip "Expanding your Materials"
 
@@ -98,7 +98,7 @@ Before we move onto scripting, we need to create a player model for your game. A
 Once you have done that, you will now see a fresh bean-looking model in your scene and in your hierarchy
 
 
-![Created Player](assets/player-created.png){ width="700" height="700"}
+![Created Player](assets/player-created.png "player created")
 
 ??? tip "Quick Editing"
 
