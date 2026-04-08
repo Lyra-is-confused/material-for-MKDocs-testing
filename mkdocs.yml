@@ -13,6 +13,7 @@ nav:
       - Scene and Player Creation: Scene-creation.md
       - Creating a Player Script: player-script.md
       - Creating a Camera Script: camera-script.md
+      - Troubleshooting: Troubleshooting.md
   - Glossary: glossary.md
 
 theme:
