@@ -1,5 +1,4 @@
-Movement is essential for any game, and it is the perfect way to get introduced to programming in C, and understanding
-the basics of unity. ... add more
+Now that we finished with movement, there is one last essential thing, and that is getting the camera to follow the player. We have two options, first person view, or third person view. For this game, we will be choosing first person camera movement.
 
 
 <!-- Writing a program which plays fizz buzz happens to be a well-known basic technical question for programming interviews.  for reference --> 

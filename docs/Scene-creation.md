@@ -2,7 +2,7 @@
 
 Once you have created your project following [part 1](Project-creation.md), we will be greeted with our scene, which has the following: **Main Camera**, **Directional Light** and **Global Volume**. To help get your bearings, we suggest reading the "Navigating the Scene" tip below.
 
-![Empty Scene](assets/empty_scene.png){ width="700" height="700" }
+![Empty Scene](assets/empty_scene.png "Empty Scene")
 
 ??? tip "Navigating the Scene"
 
@@ -25,7 +25,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 1. right-click in the hierarchy window, and a menu will pop up. Go to **3D Object** and click "Plane".
 
-    ![3D Object > Plane](assets/makePlane.png)
+    ![3D Object > Plane](assets/makePlane.png "Add new plane")
 
     This makes a 1x1 plane in your **Scene** window.
 
@@ -34,7 +34,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
     - green scales on the y-axis
     - blue scales on the z-axis
 
-    ![Scaling](assets/Screenshot%20(51).png)
+    ![Scaling](assets/Screenshot%20(51).png "Scaling")
 
     !!! warning "Scaling!"
 
@@ -43,7 +43,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 1. Alternatively, you can use the "Transform" option in the Inspector:
 
-    ![Transform Option](assets/Screenshot%20(52).png)
+    ![Transform Option](assets/Screenshot%20(52).png "Transform Option")
 
     ??? question "Why would I use the alternative?" 
 
@@ -54,11 +54,11 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 1. in the plane's **Inspector** window,find the dropdown menu titled **Layer** and expand it.
     
-    ![Layer Dropdown](assets/LayerSelect1.png)
+    ![Layer Dropdown](assets/LayerSelect1.png "Layer Dropdown")
 
 1. select **Add Layer...** and under *User Layer 3*, type in *Ground*.
 
-    ![Make the Ground Layer](assets/MakeGroundLayer.png)
+    ![Make the Ground Layer](assets/MakeGroundLayer.png "Make the Ground Layer")
 
     this creates a new *LayerMask*, and dictates what our player model should be standing on. we mainly use it for enabling/disabling the player's ability to jump based on whether the player is grounded or not.
 
@@ -70,12 +70,12 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 1. Let's Give the floor some colour. right click in your **Project** window and navigate to *Create* > *Material*.
 
-    ![Project > Create > Material](assets/MakeNewMaterial.png)
+    ![Project > Create > Material](assets/MakeNewMaterial.png "Create new matereial")
 
     - Give the new Material a name, a simple one like *Floor Material* will work fine.
     - In the material's Inspector, click on the long white bar across from *Base Map* and select a colour.
 
-    ![Select the White Bar](assets/newMaterialInspector.png)
+    ![Select the White Bar](assets/newMaterialInspector.png "New material")
 
     - Once you're happy with your material, simply click and drag the material from the **Project** window onto the plane in your **Scene** window.
 

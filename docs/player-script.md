@@ -47,7 +47,7 @@ public class MovementScript : MonoBehaviour {
     
     public CharacterController controller;
 
-    public float walkSpeed = 6f;
+    public float walkSpeed = 12f;
     public float sprintSpeed = 10f; // feel free to customize to your liking
     public float gravity = -9.81f; // -9.81 is the constant for gravity
     public float jumpHeight = 2f;
@@ -59,6 +59,11 @@ public class MovementScript : MonoBehaviour {
     private Vector3 velocity;
     private bool isGrounded;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start() { //remove this function from your script
+        
+    }
+    
     void Update() {
         // code goes here
     }
@@ -68,7 +73,7 @@ public class MovementScript : MonoBehaviour {
 
     MonoBehaviour is Unity’s base class that allows classes to accept all of Unity’s functions like Awake, Update, etc. A reason not to use MonoBehaviour is if you don’t need any special Unity functionality for that class, which is rare.
 
-Here is the variables needed for our script. Add all this above the **void Update()** function and get rid of the **void start()** function
+Here is the variables needed for our script. Add all this above the **void Update()** function and get rid of the **void Start()** function
 
 This part of the code is to check if our player is grounded
 
@@ -103,7 +108,7 @@ For controlling player movement
 
 // Movement Direction 
 Vector3 move = transform.right * x + transform.forward * z; // ensures movement is relative to where the player is facing.
-controller.Move(move * speed * Time.deltaTime);
+controller.Move(move * walkSpeed * Time.deltaTime);
 ```
 
 What controller.Move does:
@@ -117,7 +122,6 @@ To control player speed
 float speed;
 
 // checks if Left Shift is activated 
-
 if (Input.GetKey(KeyCode.LeftShift)) {
     speed = sprintSpeed; // activates when Left Shift is held
 }
@@ -155,7 +159,7 @@ public class MovementScript : MonoBehaviour {
     
     public CharacterController controller;
 
-    public float walkSpeed = 6f;
+    public float walkSpeed = 12f;
     public float sprintSpeed = 10f;
     public float gravity = -9.81f;
     public float jumpHeight = 2f;
@@ -171,8 +175,7 @@ public class MovementScript : MonoBehaviour {
         // Ground Check
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if (isGrounded && velocity.y < 0)
-        {
+        if (isGrounded && velocity.y < 0) {
             velocity.y = -2f; // Keeps player grounded
         }
 
@@ -182,7 +185,7 @@ public class MovementScript : MonoBehaviour {
 
         // Movement Direction 
         Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * walkSpeed * Time.deltaTime);
 
         // Sprint 
         float speed;
@@ -194,7 +197,6 @@ public class MovementScript : MonoBehaviour {
         else {
             speed = walkSpeed; // if Left shift not held, reverts to normal walking speed
         }
-
 
         // Jump 
         if (Input.GetButtonDown("Jump") && isGrounded) {
@@ -212,10 +214,10 @@ public class MovementScript : MonoBehaviour {
     The most common ones are:
 
     - Semicolons not placed at the end
-    - Case-Sensitive errors (such as "Input" having an uppercase I)
+    - Case-Sensitive errors (such as "Input" not having an uppercase I)
 
     Whenever you finish your code, always make sure to double check for these minor errors
 
-!!! Sucess
+!!! success 
     We have succesfully finished the player movement script! It's now time for the last task in this document, the
     camera script.

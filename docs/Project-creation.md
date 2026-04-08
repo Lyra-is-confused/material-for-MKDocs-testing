@@ -61,25 +61,25 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 ### Getting Familiar with the Editor
 1. The Project Hirearchy
 
-    ![Hierarcy](assets/hierarchy.png)
+    ![Hierarcy](assets/hierarchy.png "Hierarcy")
     
     This is where you can add, remove or edit GameObjects, cameras, lighting, and everything else you would need for a game 
 
 1. The Inspector
 
-    ![Inspector](assets/inspector.png)
+    ![Inspector](assets/inspector.png "Inspector")
 
     This is where you can edit the properties of your objects, and add scripts to the objects.
 
 1. The Project tab
 
-    ![Project Tab](assets/projectTab.png)
+    ![Project Tab](assets/projectTab.png "Project Tab")
 
     This is where you will see all folders, scripts, and textures you have created, along with any other files you need for the project.
 
 1. The Console tab
 
-    ![Console Tab](assets/consoleTab.png)
+    ![Console Tab](assets/consoleTab.png "Console Tab")
 
     This is where you will see all folders, scripts, and textures you have created, along with any other files you need for the project.
 
@@ -101,4 +101,4 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
     !!! success
 
-        ## Awesome, you can now navigate unity, and we can move on to the next topic: **Scene Creation!**
+        ### Awesome, you can now navigate unity, and we can move on to the next topic: **Scene Creation!**
