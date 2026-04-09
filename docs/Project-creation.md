@@ -59,40 +59,32 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
         You have created your first project! let's get into How to make this into a game.
 
 ### Getting Familiar with the Editor
-1. The Project Hirearchy
+
+- The Project Hirearchy
 
     ![Hierarcy](assets/hierarchy.png "Hierarcy")
     
     This is where you can add, remove or edit GameObjects, cameras, lighting, and everything else you would need for a game 
 
-1. The Inspector
+- The Inspector
 
     ![Inspector](assets/inspector.png "Inspector")
 
     This is where you can edit the properties of your objects, and add scripts to the objects.
 
-1. The Project tab
+- The Project tab
 
     ![Project Tab](assets/projectTab.png "Project Tab")
 
     This is where you will see all folders, scripts, and textures you have created, along with any other files you need for the project.
 
-1. The Console tab
+- The Console tab
 
     ![Console Tab](assets/consoleTab.png "Console Tab")
 
     This is where you will see all folders, scripts, and textures you have created, along with any other files you need for the project.
 
     the highlighted icons show the number of logs("!" in speech bubble), warnings(! in Triangle), and errors(! in octagon) in your code.
-
-    ??? info "Logs"
-
-        A log is any message printed to the console using a `Debug.Log("")` statement.
-  
-    ??? info "Warning"
-
-        A warning tells you that there may be an issue causing a program to not work as intended or a small syntax mismatch/error.
-        warnings don't impede the compilation or function of scripts, but are often things worth adressing.
 
     ??? info "Errors"
 

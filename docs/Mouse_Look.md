@@ -90,7 +90,7 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
     Check that your cursor does lock to the **Game** window (it will dissapear), and when confirmed, press `Esc` to free your cursor and press the stop button.
 
-    # picture of Stop button
+    ## picture of Stop button
 
     !!! note "Testing"
 
@@ -106,10 +106,6 @@ In this step, We'll create a simple C# script for using the mouse to look around
     ```
 
     This tells unity to start monitoring our mouse movement on both axes. we then multiply by our sensitivity, and then add Time.deltaTime to normalize it.
-
-    ??? info "Time.deltaTime"
-
-        Time.deltaTime is what we use to desyncronise game happenings from a computer's refresh rate. this means that it will be the same across devices.
 
 1. inside `Update()` again, add these lines:
     ```csharp title="mouselook.cs" linenums="1"
