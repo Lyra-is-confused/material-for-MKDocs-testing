@@ -161,3 +161,13 @@ In this step, We'll create a simple C# script for using the mouse to look around
         }
     }
     ```
+## Conclusion
+
+In this task, you learned how to: 
+
+    - Create and attach a C# script to a Unity **GameObject**
+    - Use CharacterController for movement
+    - Implement player input using Unity’s Input system
+    - Implement jumping using a physics-based formula
+    - Apply gravity to create realistic falling behavior
+    - Use ground detection to prevent mid-air jumping

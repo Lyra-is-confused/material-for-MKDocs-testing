@@ -211,9 +211,22 @@ public class MovementScript : MonoBehaviour {
 
     - Semicolons not placed at the end
     - Case-Sensitive errors (such as "Input" not having an uppercase I)
+    - Missing references in the Inspector (CharacterController or GroundCheck not assigned)
+    - Ground layer not set correctly
 
     Whenever you finish your code, always make sure to double check for these minor errors
 
 !!! success 
     We have succesfully finished the player movement script! It's now time for the last task in this document, the
-    camera script.
+    camera script
+
+## Conclusion
+
+In this task, you learned how to: 
+
+    - Create and attach a C# script to a Unity **GameObject**
+    - Use CharacterController for movement
+    - Implement player input using Unity’s Input system
+    - Implement jumping using a physics-based formula
+    - Apply gravity to create realistic falling behavior
+    - Use ground detection to prevent mid-air jumping

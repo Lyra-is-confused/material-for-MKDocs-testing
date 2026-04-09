@@ -128,3 +128,17 @@ in order to have a game, we need a player. In order to have a player, we need a 
     Rename this new empty GameObject to *GroundCheck*. (this will come up later.)
 
 !!! success "Part 2 Complete!"
+
+## Conclusion
+
+In this task, you learned how to: 
+
+    - Navigate a **Scene**
+    - Add and scale a platform
+    - Add a layermask to your platform
+    - Add a new material for your platform
+    - Create a player model
+    - Scale your player model
+    - Add a `Character Controller` to your player
+
+Scene creation is an import aspect to understand when creating a Unity game. The more you familiarize yourself with the Scene editor, the easier it becomes! 
