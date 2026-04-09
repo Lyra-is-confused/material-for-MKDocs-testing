@@ -5,19 +5,14 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
 ### Creating a New Unity Project
 
-1. Select the **Projects** tab in the left hand sidebar.
+1. **Select** the **Projects** tab in the left hand sidebar.
     ![Project Creation](assets/HubMenu.png)
 
 ??? tip "Unity Hub Login"
 
     If this is the first time you have launched the unity editor, it will ask you to log in first. This allows you to use collected asset store items, as well as using Unity version control (even though git is a better option). Log in using your preferred method, and then Unity Hub will begin installing the latest stable version of unity (v6000.4 as of this guide). Continue on after the installation has finished.
 
-??? info "The Unity Hub"
-
-    The Unity hub is a manager for your different unity projects and different installations of the unity editor. for this guide, you don't need to install a different version of the editor, so you can safely ignore alternate editors.
-
-
-1. In the **Projects** tab, select either *New Project* buttons.
+1. In the **Projects** tab, **select** either "New Project" buttons.
     ![New Project](assets/CreateProject.png)
     If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
 
@@ -28,13 +23,13 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
     !!! warning 
 
-        Make sure to select the *All* tab, as it may automatically set you to the *Learning* tab.
+        Make sure to **select** the *All* tab, as it may automatically set you to the *Learning* tab.
 
 
-1. Next, select **New Project**, then select the **Universal 3D** template.
+1. Next, **select New Project**, then **select** the **Universal 3D** template.
     ![Select Universal 3D](assets/SelectUniversalProject.png)
 
-    we will use 3D for this tutorial, so make sure to Select **Universal 3D**.
+    we will use 3D for this tutorial, so make sure to **Select Universal 3D**.
 
     ??? question "Why Universal and not High Definition?"
 
@@ -50,7 +45,7 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
     This just makes sure you keep your computer organized and makes it easier to keep all game files self-contained for easy in-editor access.
 
 
-1. Click on the **"+ Create Project"** button, and the editor will start up automatically!
+1. **Click** on the "+ Create Project" button, and the editor will start up automatically!
     let the editor boot, and you should be greeted with the basic editor window:
     ![Default Unity Editor Window](assets/FirstTimeEditor.png)
 
@@ -86,11 +81,6 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
     the highlighted icons show the number of logs("!" in speech bubble), warnings(! in Triangle), and errors(! in octagon) in your code.
 
-    ??? info "Errors"
-
-        An error is a message with information about problems impeding the compilation of code or runtime errors causing erratic/unintended behaviour.
-  
-
     !!! success
 
         ### Awesome, you can now navigate unity, and we can move on to the next topic: **Scene Creation!**
@@ -99,9 +89,9 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
 In this task, you learned how to: 
 
-    - Create and attach a C# script to a Unity **GameObject**
-    - Use CharacterController for movement
-    - Implement player input using Unity’s Input system
-    - Implement jumping using a physics-based formula
-    - Apply gravity to create realistic falling behavior
-    - Use ground detection to prevent mid-air jumping
+- Create and attach a C# script to a Unity **GameObject**
+- Use CharacterController for movement
+- Implement player input using Unity’s Input system
+- Implement jumping using a physics-based formula
+- Apply gravity to create realistic falling behavior
+- Use ground detection to prevent mid-air jumping

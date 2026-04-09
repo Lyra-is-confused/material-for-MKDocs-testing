@@ -3,12 +3,12 @@ Now that we have created a player model, its time for scripting! In this part of
 
 ### Adding a script to the player
 
-1. To create your player script, click your player object, and in the inspector, click "Add Component
+1. To create your player script, **click** your player object, and in the inspector, **click** "Add Component"
 
 
     ![Adding Script](assets/Screenshot%20(53).png "Add your script")
 
-2. A menu will now pop up. Scroll down to the bottom of the menu, and select "New script".  
+2. A menu will now pop up. Scroll down to the bottom of the menu, and **select** "New script".  
 
 
     ![New Script Page](assets/Screenshot%20(54).png "New Script Page")
@@ -224,9 +224,9 @@ public class MovementScript : MonoBehaviour {
 
 In this task, you learned how to: 
 
-    - Create and attach a C# script to a Unity **GameObject**
-    - Use CharacterController for movement
-    - Implement player input using Unity’s Input system
-    - Implement jumping using a physics-based formula
-    - Apply gravity to create realistic falling behavior
-    - Use ground detection to prevent mid-air jumping
+- Create and attach a C# script to a Unity **GameObject**
+- Use CharacterController for movement
+- Implement player input using Unity’s Input system
+- Implement jumping using a physics-based formula
+- Apply gravity to create realistic falling behavior
+- Use ground detection to prevent mid-air jumping

@@ -24,11 +24,38 @@ To follow along, this guide requires that you have:
 
 ### Typographical Conventions
 
+1. Code is shown like this:
 
+    ```csharp
+    float speed;
+    if (Input.GetKey(KeyCode.LeftShift)) {
+        speed = sprintSpeed; 
+    else {
+        speed = walkSpeed; 
+    }
+    ```
+
+2. Actions you need to perform, and menu items are bolded:
+
+    **Select Transform** to change the scale
+
+3. Button items are surronded by quotations:
+
+    "Add Project" to add a project 
 
 
 
 ### Admonitions Used
+Throughout this documentation, we will use message blocks to grab your attention. Each possible message block, from most important to least important:
+
+!!! warning 
+    used to warn the user for possible errors.
+!!! Success 
+    Used to indicate that you did something right!
+??? tip
+    Used to give useful information that might aid the reader
+??? question
+    Used to answer any question the reader may have
 
 
 

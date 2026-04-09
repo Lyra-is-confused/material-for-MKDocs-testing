@@ -2,11 +2,11 @@
 
 In this step, We'll create a simple C# script for using the mouse to look around. while simple, this script will have an easily modifyable sensitivity parameter, as well as clamping the rotation so players can't make the camera look inside the capsule.
 
-1. Select your **Main Camera** and click **Add Component**.
+1. **Select** your **Main Camera** and **click** "Add Component".
 
 
 
-1. Type in what you want to name your script, we'll use *mouselook*. click **New Script**, and hit enter.
+1. Type in what you want to name your script, we'll use *mouselook*. **click** "New Script", and hit enter.
     Save the script in the same place as your movement Script, and open it up in visual studio.
     You should be met with this:
 
@@ -68,7 +68,7 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
         don't worry about making global variables. global variables are a rarity here, and as long as you declare your vars inside the {} after the class declaration, it's not global.
 
-    !!! danger "forgetting the Semicolon WILL cause your code not to compile!"
+    !!! warning "forgetting the Semicolon WILL cause your code not to compile!"
 
 1. Inside the **void Start** method, we're going to add:
 
@@ -92,7 +92,7 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
     ## picture of Stop button
 
-    !!! note "Testing"
+    ??? tip "Testing"
 
         Testing is a critical part of game development, so test your work often.
 
@@ -165,9 +165,9 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
 In this task, you learned how to: 
 
-    - Create and attach a C# script to a Unity **GameObject**
-    - Use CharacterController for movement
-    - Implement player input using Unity’s Input system
-    - Implement jumping using a physics-based formula
-    - Apply gravity to create realistic falling behavior
-    - Use ground detection to prevent mid-air jumping
+- Create and attach a C# script to a Unity **GameObject**
+- Use CharacterController for movement
+- Implement player input using Unity’s Input system
+- Implement jumping using a physics-based formula
+- Apply gravity to create realistic falling behavior
+- Use ground detection to prevent mid-air jumping

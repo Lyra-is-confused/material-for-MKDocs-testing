@@ -9,3 +9,4 @@
 | `Warning` | A warning tells you that there may be an issue causing a program to not work as intended or a small syntax mismatch/error. |
 | `Errors` | An error is a message with information about problems hindering the compilation of code or runtime errors causing unintended behaviour |
 | `Time.deltaTime` | Time.deltaTime is what we use to desyncronise game happenings from a computer's refresh rate. this means that it will be the same across devices |
+| `The Unity Hub` |   The Unity hub is a manager for your different unity projects and different installations of the unity editor. |
