@@ -1,9 +1,5 @@
-
-
-# Creating a Player Script 
-
-Now that we have created a player model, its time for scripting! In this part of the guide, we'll introduce you to programming in C# by writing a simple movement script. Scripting in unity may seem confusing at first, but we will 
-go step-by-step and explain what each codeblock does to simplify thing as much as possible.
+# Creating a Player Script
+Now that we have created a player model, its time for scripting! In this part of the guide, we'll introduce you to programming in C# by writing a simple movement script. Scripting in unity may seem confusing at first, but we will go step-by-step and explain what each codeblock does to simplify thing as much as possible.
 
 ### Adding a script to the player
 
@@ -29,7 +25,7 @@ go step-by-step and explain what each codeblock does to simplify thing as much a
 
 ### Adding code
 
-This script will provide a basic first-person player movement using Unity's `CharacterController`. First, you will want to open your **.cs** file in an IDE such as VSCode. 
+This script will provide a basic first-person player movement using Unity's `CharacterController` component. First, you will want to open your **.cs** file in an IDE such as VSCode. 
 
 Features:
 
