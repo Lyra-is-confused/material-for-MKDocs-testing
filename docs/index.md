@@ -30,18 +30,23 @@ To follow along, this guide requires that you have:
     float speed;
     if (Input.GetKey(KeyCode.LeftShift)) {
         speed = sprintSpeed; 
+    }
     else {
         speed = walkSpeed; 
     }
     ```
+2. Specific code from the codeblocks are shown as such:
 
-2. Actions you need to perform, and menu items are bolded:
+    `Input.GetKey()` checks for a specific key press
+
+3. Actions you need to perform, and menu items are bolded:
 
     **Select Transform** to change the scale
 
-3. Button items are surronded by quotations:
+4. Button items are surronded by quotations:
 
     "Add Project" to add a project 
+
 
 
 
@@ -49,7 +54,7 @@ To follow along, this guide requires that you have:
 Throughout this documentation, we will use message blocks to grab your attention. Each possible message block, from most important to least important:
 
 !!! warning 
-    used to warn the user for possible errors.
+    used to warn the reader for possible errors.
 !!! Success 
     Used to indicate that you did something right!
 ??? tip

@@ -37,6 +37,8 @@ Features:
 
 ## Variables
 ```csharp
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine; // code will not work without this
 
 public class MovementScript : MonoBehaviour {
@@ -96,7 +98,8 @@ To get player input:
 float x = Input.GetAxis("Horizontal"); // A/D or Left/Right
 float z = Input.GetAxis("Vertical");   // W/S or Forward/Back
 ```
-Returns values between -1 and 1
+Returns values between -1 and 1. 
+These mappings come from Unity’s Input Manager settings. To check these settings, go to **Edit > Project Settings > Input Manager.**
 
 For controlling player movement
 
@@ -107,10 +110,10 @@ Vector3 move = transform.right * x + transform.forward * z; // ensures movement 
 controller.Move(move * walkSpeed * Time.deltaTime);
 ```
 
-What controller.Move does:
+What `controller.Move` does:
 
 - handles collision safely
-- Time.deltaTime ensures smooth movement regardless of FPS
+- `Time.deltaTime` ensures smooth movement regardless of FPS
 
 To control player speed
 
@@ -125,9 +128,9 @@ else {
     speed = walkSpeed; // if Left shift not held, reverts to normal walking speed
 }
 ```
-If Left Shift is pressed sprintSpeed is activated. Otherwise you fall back to walkSpeed
+If Left Shift is pressed `sprintSpeed` is activated. Otherwise you fall back to `walkSpeed`
 
-For jumping
+For jumping:
 
 ```csharp hl_lines="2"
 
@@ -136,7 +139,7 @@ For jumping
     }
 
 ```
-Only allows jumping when grounded. The highlighted code is a formula for realistic jump height.
+`Input.GetButtonDown("jump")` checks for the spacebar press, and only allows jumping when grounded. The highlighted code is a formula for realistic jump height.
 
 Lastly, gravity and player movement
 
@@ -145,10 +148,14 @@ Lastly, gravity and player movement
     velocity.y += gravity * Time.deltaTime; // Continuously pulls player downward
     controller.Move(velocity * Time.deltaTime); // Applies falling and jumping movement separately
 ```
-    
+`velocity.y += gravity * Time.deltaTime` builds falling speed over time
+`controller.Move(velocity * Time.deltaTime)` converts that speed into actual movement   
+
 ## Full Script
 Here is what the full script should like:
 ```csharp
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MovementScript : MonoBehaviour {
