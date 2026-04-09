@@ -35,6 +35,7 @@ To follow along, this guide requires that you have:
         speed = walkSpeed; 
     }
     ```
+    
 2. Specific code from the codeblocks are shown as such:
 
     `Input.GetKey()` checks for a specific key press

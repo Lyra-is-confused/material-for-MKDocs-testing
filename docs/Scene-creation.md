@@ -10,7 +10,7 @@ Once you have created your project following [part 1](Project-creation.md), we w
 
     Please note that the camera is **NOT CLAMPED**. This means the camera can rotate in any direction you want, including upside down. to escape this, just **click** on any highlighted cone on this to re-orient the camera quickly:
 
-    ![orientation function](assets/XYZItem.png)
+    ![Orientation Function](assets/XYZItem.png "Orientation Function")
 
     - **X** sets you to a right-side view
     - **Y** sets you to a top-down view
@@ -99,20 +99,20 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
 1. In the inspector window, right **click** on **Capsule Collider** and **select** "Remove Component".
 
-    ![Removing Capsule collider Component](assets/Remove_Component.png)
+    ![Removing Capsule collider Component](assets/Remove_Component.png "Remove Capsule collider")
 
 1. At the bottom of the inspector window, **click** "Add Component" and search for "Character Controller". click on it to add it to our player object.
 
-    ![Adding Character Controller Component](assets/Add_Component_menu.png)
+    ![Adding Character Controller Component](assets/Add_Component_menu.png "Add Character Controller")
 
-1. In the **hirearchy** window, **selec**t *Main Camera*. in the **Inspector** window, right click on **Transform**, and click **Reset**.
+1. In the **hierearchy** window, **select** *Main Camera*. in the **Inspector** window, right click on **Transform**, and click **Reset**.
 
-    ![Adding Character Controller Component](assets/Reset_Transform.png)
+    ![Reset Transform](assets/Reset_Transform.png "Reset Transform")
 
 1. In the **Scene** window, use the arrows to position the camera roughly at the top of the player capsule.
     Position it so from a side view, the camera icon pokes just overtop of the capsule.
 
-    ![Camera Peeking Over Top](assets/Camera_Positioning.png)
+    ![Camera Peeking Over Top](assets/Camera_Positioning.png "Camera Peeking Over Top")
 
     ??? tip "Getting a good view"
 
