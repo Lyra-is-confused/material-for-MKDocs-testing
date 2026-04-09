@@ -12,7 +12,7 @@ nav:
       - Project Creation: Project-creation.md
       - Scene and Player Creation: Scene-creation.md
       - Creating a Player Script: player-script.md
-      - Creating a Camera Script: camera-script.md
+      - Creating a Camera Script: Mouse_Look.md
       - Troubleshooting: Troubleshooting.md
   - Glossary: glossary.md
 

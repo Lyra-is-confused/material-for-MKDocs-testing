@@ -1,10 +1,10 @@
 # Scene and Player Creation
 
-Once you have created your project following [part 1](Project-creation.md), we will be greeted with our scene, which has the following: **Main Camera**, **Directional Light** and **Global Volume**. To help get your bearings, we suggest reading the "Navigating the Scene" tip below.
+Once you have created your project following [part 1](Project-creation.md), we will be greeted with our scene, which has the following: **Main Camera**, **Directional Light** and **Global Volume**. 
 
 ![Empty Scene](assets/empty_scene.png "Empty Scene")
 
-??? tip "Navigating the Scene"
+!!! tip "Navigating the Scene"
 
     the *scene* window is a key aspect of the Unity Editor, and in our project it's a 3-D space. To look around, hold right mouse button (RMB) and drag your mouse to look around in your scene. While holding RMB, you can fly around the scene with **W**, **A**, **S**, **D**, or the **Arrow keys**.
 
@@ -88,21 +88,43 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 ### Creating a Player model
 
-Before we move onto scripting, we need to create a player model for your game. A player model can be something as simple as a bean, or something as complex as realistic humans. For this part of the tutorial, we will only be creating a simple "bean" player model.
+in order to have a game, we need a player. In order to have a player, we need a model for your game. A player model can be something as simple as a Capusle (sometimes called a "bean"). For this part of the tutorial, we will only be creating a simple player model using a capsule.
 
-1. To start, right-click in the hierarchy window, Go to 3D Object and select "Capsule".
-1. ...
-1. ...
-1. ...
+1. To start, right-click in the hierarchy window, Go to 3D Object and select "Capsule" (Same way we made the Plane).
 
-Once you have done that, you will now see a fresh bean-looking model in your scene and in your hierarchy
+1. Using the arrows, move the capsule upwards until it's fully visible.
 
+1. In the **Transform** section of the capsule's inspector window, set **x**, **y**, and **z** = 2.
+    You can also click on the text box containing *Capsule* and rename it, (*Player* should do fine).
 
-![Created Player](assets/player-created.png "player created")
+1. In the inspector window, right click on **Capsule Collider** and select "Remove Component".
 
-??? tip "Quick Editing"
+    ![Removing Capsule collider Component](assets/Remove_Component.png)
 
-    If you need to get a good angle on your models, just select your model and hit 'F' on your keyboard.
-    This way, you don't have to keep fidgeting with your mouse to get the right angle. 
+1. At the bottom of the inspector window, click "Add Component" and search for "Character Controller". click on it to add it to our player object.
 
-Now, we will need to add a camera for the player model
+    ![Adding Character Controller Component](assets/Add_Component_menu.png)
+
+1. In the **hirearchy** window, select *Main Camera*. in the **Inspector** window, right click on **Transform**, and click **Reset**.
+
+    ![Adding Character Controller Component](assets/Reset_Transform.png)
+
+1. In the **Scene** window, use the arrows to position the camera roughly at the top of the player capsule.
+    Position it so from a side view, the camera icon pokes just overtop of the capsule.
+
+    ![Camera Peeking Over Top](assets/Camera_Positioning.png)
+
+    ??? tip "Getting a good view"
+
+        If you need to get a good angle on your models, just select your model and hit 'F' on your keyboard. This way, you don't have to keep fidgeting with your mouse to get the right angle. 
+
+1. Click and drag the camera overtop of our player object. this will parent the camera to the player object.
+
+    ??? question "What's parenting an object?"
+
+        Parenting is simply attaching one object to another, essentially linking an objects size and position to a parent object.
+
+1. Finally, right click on **Player** and select "Create Empty" from the menu (this automatically makes the new empty a child of Player). use the arrows to move this downwards to roughly the bottom of the capsule.
+    Rename this new empty GameObject to *GroundCheck*. (this will come up later.)
+
+!!! success "Part 2 Complete!"
