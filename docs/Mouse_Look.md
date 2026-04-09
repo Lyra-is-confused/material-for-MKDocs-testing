@@ -28,7 +28,16 @@ In this step, We'll create a simple C# script for using the mouse to look around
         }
     }
     ```
-    
+
+1. Add these lines above `using UnityEngine;`:
+    ```csharp
+    using System.Collections;
+    using System.Collections.Generic;
+    ```
+    These are like packages in python. they expand Unity's capabilities.
+
+
+
 1. Let's set some variables.
     After `public class mouseLooking : MonoBehaviour`, add:
     ```csharp title="mouselook.cs" linenums="1"
@@ -87,4 +96,72 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
         Testing is a critical part of game development, so test your work often.
 
-1. heading back into VSCode, add
+1. heading back into VSCode, we're going to add the following to our script inside `void update()`:
+    ```csharp title="mouselook.cs" linenums="1"
+        void Update()
+    {
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+    }
+    ```
+
+    This tells unity to start monitoring our mouse movement on both axes. we then multiply by our sensitivity, and then add Time.deltaTime to normalize it.
+
+    ??? info "Time.deltaTime"
+
+        Time.deltaTime is what we use to desyncronise game happenings from a computer's refresh rate. this means that it will be the same across devices.
+
+1. inside `Update()` again, add these lines:
+    ```csharp title="mouselook.cs" linenums="1"
+    void Update()
+    {
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+    }
+    ```
+    this will start recording our Xrotation from mouseY, and then use the `Mathf.Clamp()` to clamp our rotations to a 180 degree field of view.
+
+1. finally, add these in `Update()`:
+    ```csharp title="mouselook.cs" linenums="1"
+    void Update()
+    {
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        playerBody.Rotate(Vector3.up * mouseX);
+    }
+    ```
+    this will access the transform of the playerBody object, and use the transform's `.rotate()` function to rotate the playerBody, and by extension, the camera.
+
+1. Go back into unity, let your code compile, and test your code!
+    in case something doesn't work, you can check against the full script:
+    ```csharp title="mouselook.cs" linenums="1"
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+
+    public class mouselook : MonoBehaviour
+    {
+        public float mouseSensitivity = 100f;
+
+        public Transform playerBody;
+
+        float xRotation = 0f;
+        // Start is called before the first frame update
+        void Start()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+            float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            playerBody.Rotate(Vector3.up * mouseX);
+        }
+    }
+    ```
