@@ -17,4 +17,10 @@
 | Console errors (NullReferenceException) | Missing references | Ensure `controller` and `groundCheck` are assigned |
 
 ## Problems with Camera Script
-... 
+| Problem | Cause | Solution |
+|----------------------------------------|--------|----------|
+|Unity error `NullReferenceException`|Variable expecting assignment is unassigned| Double check you've referenced PlayerBody in the editor|
+|Unity error `error cs1002: ';' expected`|missing semicolon|find where it's missing and add a semicolon|
+|Unity error `cs0103: the name '[variable name]' does not exist in the current context`|Misspelled or unknown variable name| Double check spelling of [variable name] to be consistent|
+|cursor not locking to screen automatically|This happens on older versions of Unity|click on *game* window|
+|cursor not dissapearing|Unity's `cursor.lockState` isn't causing this automatically|add `Cursor.visible = false;` on the line above `cursor.lockState`|

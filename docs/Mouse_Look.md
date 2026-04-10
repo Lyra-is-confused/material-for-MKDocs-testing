@@ -164,9 +164,8 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
 In this task, you learned how to: 
 
-- Create and attach a C# script to a Unity **GameObject**
-- Use CharacterController for movement
-- Implement player input using Unity’s Input system
-- Implement jumping using a physics-based formula
-- Apply gravity to create realistic falling behavior
-- Use ground detection to prevent mid-air jumping`
+- **parent** an Object to another object 
+- lock the mouse cursor to the screen using *cursor.lockState*
+- access mouse movement data through *MouseX/MouseY*
+- use the .Clamp() function to clamp rotations
+- use an object's *Transform* component to control it's rotation

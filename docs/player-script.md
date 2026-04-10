@@ -248,7 +248,7 @@ public class MovementScript : MonoBehaviour {
 
 In this task, you learned how to: 
 
-- Create and attach a C# script to a Unity **GameObject**
+- Create and attach a C# script to a Unity *GameObject*
 - Use CharacterController for movement
 - Implement player input using Unity’s Input system
 - Implement jumping using a physics-based formula
