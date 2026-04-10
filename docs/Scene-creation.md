@@ -29,7 +29,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
     This makes a 1x1 plane in your **Scene** window.
 
-1. Select the *Scale* tool in the left toolbar of your Scene, and select the plane (orange outline). Use any of the coloured nodes to scale the platform.
+1. **Select** the *Scale* tool in the left toolbar of your Scene, and select the plane (orange outline). Use any of the coloured nodes to scale the platform.
     - red scales on the x-axis
     - green scales on the y-axis
     - blue scales on the z-axis
@@ -42,21 +42,23 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 
 1. Alternatively, you can use the **Transform** option in the Inspector:
+    
+    Adjust the values under *Scale*.
 
     ![Transform Option](assets/Screenshot%20(52).png "Transform Option")
 
-    ??? question "Why would I use the alternative?" 
+    ??? question "Why would I use one or the other?" 
 
         You would use transform if you know the exact values you want, while the other option is used for rough proportions. In general, you would be using both these options, the first one would be used for quick prototyping and objects that don't require exact parameters. Then, you would use the inspector to set precise values for scale, rotation and/or position of the objects.
       
 
     no matter what method you choose, scale your platfom to your desired width and length (we chose 5x5).
 
-1. in the plane's **Inspector** window,find the dropdown menu titled **Layer** and expand it.
-    
+1. **Find** the dropdown menu titled **Layer** in the plane's **Inspector** window, and expand it.
+
     ![Layer Dropdown](assets/LayerSelect1.png "Layer Dropdown")
 
-1. select **Add Layer...** and under *User Layer 3*, type in *Ground*.
+1. **select** *Add Layer...* and under *User Layer 3*, type in *Ground*.
 
     ![Make the Ground Layer](assets/MakeGroundLayer.png "Make the Ground Layer")
 
@@ -68,7 +70,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
         Think of LayerMasks similar to layers in photoshop or paint. We use layerMasks as a general way to group objects together, like setting obstacles in a course to the *Obstacle* layer, or all the enemies in a level to the *Enemy* layer. this is handy for our code, as it allows us to include many objects in one condition instead of having to directly reference them all individually.
 
-1. Let's Give the floor some colour. right **click** in your **Project** window and navigate to *Create* > *Material*.
+1. **right click** in your **Project** window and navigate to *Create* > *Material*.
 
     ![Project > Create > Material](assets/MakeNewMaterial.png "Create new matereial")
 
@@ -90,26 +92,28 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
 in order to have a game, we need a player. In order to have a player, we need a model for your game. A player model can be something as simple as a Capusle (sometimes called a "bean"). For this part of the tutorial, we will only be creating a simple player model using a capsule.
 
-1. To start, **right-click** in the hierarchy window, Go to 3D Object and **select** "Capsule" (Same way we made the Plane).
+1. **Right-click** in the hierarchy window, Go to 3D Object and **select** "Capsule" (Same way we made the Plane).
 
-1. Using the arrows, move the capsule upwards until it's fully visible.
+1. **Move** the capsule upwards using the arrows until it's fully visible.
 
 1. In the **Transform** section of the capsule's inspector window, set **x**, **y**, and **z** = 2.
+
     You can also **click** on the text box containing *Capsule* and rename it, (*Player* should do fine).
 
-1. In the inspector window, right **click** on **Capsule Collider** and **select** "Remove Component".
+1. **Right click** on **Capsule Collider** in the inspector window and **select** "Remove Component".
 
     ![Removing Capsule collider Component](assets/Remove_Component.png "Remove Capsule collider")
 
-1. At the bottom of the inspector window, **click** "Add Component" and search for "Character Controller". click on it to add it to our player object.
+1. **Click** "Add Component" at the bottom of the inspector window and search for "Character Controller". click on it to add it to our player object.
 
     ![Adding Character Controller Component](assets/Add_Component_menu.png "Add Character Controller")
 
-1. In the **hierearchy** window, **select** *Main Camera*. in the **Inspector** window, right click on **Transform**, and click **Reset**.
+1. **Select** *Main Camera* In the **hirearchy** window. right click on **Transform**, and click **Reset**.
 
-    ![Reset Transform](assets/Reset_Transform.png "Reset Transform")
+    ![Adding Character Controller Component](assets/Reset_Transform.png)
 
-1. In the **Scene** window, use the arrows to position the camera roughly at the top of the player capsule.
+1. **Use the arrows to position the camera**In the scene window roughly at the top of the player capsule.
+
     Position it so from a side view, the camera icon pokes just overtop of the capsule.
 
     ![Camera Peeking Over Top](assets/Camera_Positioning.png "Camera Peeking Over Top")
@@ -124,8 +128,11 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
         Parenting is simply attaching one object to another, essentially linking an objects size and position to a parent object.
 
-1. Finally, right **click** on **Player** and select "Create Empty" from the menu (this automatically makes the new empty a child of Player). use the arrows to move this downwards to roughly the bottom of the capsule.
-    Rename this new empty GameObject to *GroundCheck*. (this will come up later.)
+1. **Right click** on **Player** and select "Create Empty" from the menu (this automatically makes the new empty a child of Player). 
+
+1. **Use the arrows** to move this downwards to roughly the bottom of the capsule.
+
+1. *Rename* this new empty GameObject to *GroundCheck* in the *inspector* window. (this will come up later.)
 
 !!! success "Part 2 Complete!"
 

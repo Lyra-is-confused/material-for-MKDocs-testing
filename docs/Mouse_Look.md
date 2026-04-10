@@ -1,13 +1,12 @@
-# Creating a Looking Around Script
+# Creating a Camera Controller Script
 
 In this step, We'll create a simple C# script for using the mouse to look around. while simple, this script will have an easily modifyable sensitivity parameter, as well as clamping the rotation so players can't make the camera look inside the capsule.
 
 1. **Select** your **Main Camera** and **click** "Add Component".
 
+1. **Type in** what you want to name your script.
 
-
-1. Type in what you want to name your script, we'll use *mouselook*. **click** "New Script", and hit enter.
-    Save the script in the same place as your movement Script, and open it up in visual studio.
+    We'll use *mouselook*. **click** "New Script", and hit enter. Save the script in the same place as your movement Script, and open it up in visual studio.
     You should be met with this:
 
     ```csharp title="mouselook.cs" linenums="1"
@@ -29,17 +28,14 @@ In this step, We'll create a simple C# script for using the mouse to look around
     }
     ```
 
-1. Add these lines above `using UnityEngine;`:
+1. **Add** these lines above `using UnityEngine;`:
     ```csharp
     using System.Collections;
     using System.Collections.Generic;
     ```
     These are like packages in python. they expand Unity's capabilities.
 
-
-
-1. Let's set some variables.
-    After `public class mouseLooking : MonoBehaviour`, add:
+1. **Add** the following variables after `public class mouseLooking : MonoBehaviour`:
     ```csharp title="mouselook.cs" linenums="1"
     public class mouseLooking : MonoBehaviour
     {
@@ -70,7 +66,7 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
     !!! warning "forgetting the Semicolon WILL cause your code not to compile!"
 
-1. Inside the **void Start** method, we're going to add:
+1. **Add** inside the *void Start* method:
 
     ```csharp title="mouselook.cs" linenums="1"
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -79,24 +75,26 @@ In this step, We'll create a simple C# script for using the mouse to look around
             Cursor.lockState = CursorLockMode.locked;
         }
     ```
-    all this will do is tell the unity project to lock your cursor to the center of the screen.
+    What this will do is tell the unity project to lock your cursor to the center of the screen.
 
-1. Go back and check your Work. press `Ctrl + S` to save your work and then tab back into Unity.
-    Unity will compile your new script, and then give you a warning in the console. ignore it for now, we'll address it later. 
+1. **Press** `Ctrl + S` to save your work and then tab back into Unity.
+
+    Unity will compile your new script, and then give you a warning in the console. Ignore it for now, we'll address it later. 
     You should see two extra fields that share the names of the two public methods we declared.
-    Now, press on the **play** button on the top of the screen.
+
+1. **Press** on the **play** button on the top of the screen.
 
     ## picture of play button
 
-    Check that your cursor does lock to the **Game** window (it will dissapear), and when confirmed, press `Esc` to free your cursor and press the stop button.
+    **Check** that your cursor does lock to the *Game* window (it will dissapear), and when confirmed, press `Esc` to free your cursor and press the stop button.
 
     ## picture of Stop button
 
-    ??? tip "Testing"
+    !!! tip "Testing"
 
         Testing is a critical part of game development, so test your work often.
 
-1. heading back into VSCode, we're going to add the following to our script inside `void update()`:
+1. **add** the following to our script inside `void update()`:
     ```csharp title="mouselook.cs" linenums="1"
         void Update()
     {
@@ -107,7 +105,7 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
     This tells unity to start monitoring our mouse movement on both axes. we then multiply by our sensitivity, and then add Time.deltaTime to normalize it.
 
-1. inside `Update()` again, add these lines:
+1. **Add** these lines, inside `Update()` again:
     ```csharp title="mouselook.cs" linenums="1"
     void Update()
     {
@@ -117,7 +115,7 @@ In this step, We'll create a simple C# script for using the mouse to look around
     ```
     this will start recording our Xrotation from mouseY, and then use the `Mathf.Clamp()` to clamp our rotations to a 180 degree field of view.
 
-1. finally, add these in `Update()`:
+1. **Add** these in `Update()`:
     ```csharp title="mouselook.cs" linenums="1"
     void Update()
     {
@@ -127,7 +125,8 @@ In this step, We'll create a simple C# script for using the mouse to look around
     ```
     this will access the transform of the playerBody object, and use the transform's `.rotate()` function to rotate the playerBody, and by extension, the camera.
 
-1. Go back into unity, let your code compile, and test your code!
+1. **Go back into unity**, let your code compile, and test your code!
+
     in case something doesn't work, you can check against the full script:
     ```csharp title="mouselook.cs" linenums="1"
     using System.Collections;
@@ -170,4 +169,4 @@ In this task, you learned how to:
 - Implement player input using Unity’s Input system
 - Implement jumping using a physics-based formula
 - Apply gravity to create realistic falling behavior
-- Use ground detection to prevent mid-air jumping
+- Use ground detection to prevent mid-air jumping`

@@ -10,11 +10,11 @@ These are the topics of this document:
 - Add a basic movement script to the player object
 - Add basic camera script to go along with the player object
 
-### Process of creating the Docs.
+### Process of creating the Docs
 ---
-We chose Unity as our main topic of thsi user documentation because we noticed not many CST students are familiar with game development.
+We chose Unity as our main topic of this user documentation because we noticed not many CST students are familiar with game development.
 
-Our main communication tool was Discord. We used our lunch breaks to work on this document. These In-person meetings helped as collaborate efficiently and we also reduced merge conflicts because of this.
+Our main communication tool was Discord. We used our lunch breaks to work on this document, as well as after-school time. These In-person meetings helped as collaborate efficiently and we also reduced merge conflicts because of this.
 
 ### Using MKdocs
 We used [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) as our static site generator because it provides easy customizability, helpful admonitions, and syntax highlighting. 

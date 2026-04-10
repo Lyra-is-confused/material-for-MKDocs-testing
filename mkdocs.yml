@@ -1,20 +1,17 @@
 site_name: MKDocs test
-site_url: https://sitename.example
+site_url: https://lyra-is-confused.github.io/Unity-Guide-MKDocs/
 extra:
   social:
-    - icon: simple/youtube
-      link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-copyright: Copyright &copy; NEVER!! this is CREATIVE COMMONS, MOTHERFUCKERS! NO COPYRIGHT HERE!
-
+    - icon: simple/github
+      link: https://github.com/Lyra-is-confused/Unity-Guide-MKDocs
 nav:
-  - Home: index.md
-  - Guide:
-      - Project Creation: Project-creation.md
-      - Scene and Player Creation: Scene-creation.md
-      - Creating a Player Script: player-script.md
-      - Creating a Camera Script: Mouse_Look.md
-      - Troubleshooting: Troubleshooting.md
-  - Glossary: glossary.md
+    - Home: index.md
+    - Project Creation: Project-creation.md
+    - Scene and Player Creation: Scene-creation.md
+    - Creating a Player Script: player-script.md
+    - Creating a Camera Script: Mouse_Look.md
+    - Troubleshooting: Troubleshooting.md
+    - Glossary: glossary.md
 
 theme:
   name: material
@@ -24,7 +21,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: fontawesome/solid/l #https://brandfetch.com/unity.com?view=library&library=default&collection=logos&asset=idwEUhrAlj&utm_source=https%253A%252F%252Fbrandfetch.com%252Funity.com&utm_medium=copyAction&utm_campaign=brandPageReferral
+    logo:  fontawesome/brands/unity
   palette:
     #Dark Mode
     - scheme: slate

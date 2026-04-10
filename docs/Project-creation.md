@@ -8,16 +8,16 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 1. **Select** the **Projects** tab in the left hand sidebar.
     ![Project Creation](assets/HubMenu.png)
 
-??? tip "Unity Hub Login"
+??? note "Unity Hub Login"
 
     If this is the first time you have launched the unity editor, it will ask you to log in first. This allows you to use collected asset store items, as well as using Unity version control (even though git is a better option). Log in using your preferred method, and then Unity Hub will begin installing the latest stable version of unity (v6000.4 as of this guide). Continue on after the installation has finished.
 
-1. In the **Projects** tab, **select** either "New Project" buttons.
+1. **select** either "New Project" buttons.
     ![New Project](assets/CreateProject.png)
     If you have already created a project, you will only see the button in the top right. If not, both buttons will be visible.
 
 
-1. Under *editor version*, ensure you have version *6000.4* (or the latest release avaliable) selected. 
+1. **Ensure** you have version *6000.4* under *editor version*. (or the latest release avaliable) selected. 
     Your window should look similar to this:
     ![Select All](assets/maybeNeedMoveAll.png)
 
@@ -26,17 +26,17 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
         Make sure to **select** the *All* tab, as it may automatically set you to the *Learning* tab.
 
 
-1. Next, **select New Project**, then **select** the **Universal 3D** template.
+1. **Select** the **Universal 3D** template.
     ![Select Universal 3D](assets/SelectUniversalProject.png)
 
     we will use 3D for this tutorial, so make sure to **Select Universal 3D**.
 
     ??? question "Why Universal and not High Definition?"
 
-        High Definition 3d uses Unity's advanced render pipeline, which is outside the scope of this guide. HDRP(High-Definition Render Pipeline) provides much better graphical fidelity, but is much more costly on the device running it. URP (Universal Render Pipeline) is built as a general-purpose structure, sacraficing some graphical fidelity for much better performance over all devices.
+        High Definition 3d uses Unity's advanced render pipeline, which is outside the scope of this guide. HDRP(High-Definition Render Pipeline) provides much better graphical fidelity, but is much more costly on the device running it. URP (Universal Render Pipeline) is built as a general-purpose structure, sacraficing some graphical fidelity for much better performance overall.
 
 
-1. Name the project and indicate where to save the project files using the indicated fields.
+1. **Name** the project and indicate where to save the project files using the indicated fields.
     ![Project name fields](assets/fieldNames.png)
 
     we suggest you make a dedicated folder for your projects, something like:
