@@ -58,7 +58,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
     ![Layer Dropdown](assets/LayerSelect1.png "Layer Dropdown")
 
-1. **select** *Add Layer...* and under *User Layer 3*, type in *Ground*.
+1. **Select** *Add Layer...* and under *User Layer 3*, type in *Ground*.
 
     ![Make the Ground Layer](assets/MakeGroundLayer.png "Make the Ground Layer")
 
@@ -70,7 +70,7 @@ This will give you a bit of familiarity with the tools in the scene editor.
 
         Think of LayerMasks similar to layers in photoshop or paint. We use layerMasks as a general way to group objects together, like setting obstacles in a course to the *Obstacle* layer, or all the enemies in a level to the *Enemy* layer. this is handy for our code, as it allows us to include many objects in one condition instead of having to directly reference them all individually.
 
-1. **right click** in your **Project** window and navigate to *Create* > *Material*.
+1. **Right click** in your **Project** window and navigate to *Create* > *Material*.
 
     ![Project > Create > Material](assets/MakeNewMaterial.png "Create new matereial")
 
@@ -96,7 +96,7 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
 1. **Move** the capsule upwards using the arrows until it's fully visible.
 
-1. In the **Transform** section of the capsule's inspector window, set **x**, **y**, and **z** = 2.
+1. **set** *x*, *y*, and *z* = 2 in the **Transform** section of the capsule's inspector window.
 
     You can also **click** on the text box containing *Capsule* and rename it, (*Player* should do fine).
 
@@ -132,7 +132,7 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
 1. **Use the arrows** to move this downwards to roughly the bottom of the capsule.
 
-1. *Rename* this new empty GameObject to *GroundCheck* in the *inspector* window. (this will come up later.)
+1. **Rename** this new empty GameObject to *GroundCheck* in the *inspector* window. (this will come up later.)
 
 !!! success "Part 2 Complete!"
 

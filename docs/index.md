@@ -39,11 +39,11 @@ To follow along, this guide requires that you have:
     }
     ```
 
-2. Actions you need to perform are bolded:
+2. Actions you need to perform and window titles are bolded:
 
     **Select Transform** to change the scale
 
-1. Buttons and menu options are italicized:
+1. Buttons, names and menu options are italicized:
 
     click *Add Project* to add a project 
 

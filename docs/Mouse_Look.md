@@ -84,11 +84,11 @@ In this step, We'll create a simple C# script for using the mouse to look around
 
 1. **Press** on the **play** button on the top of the screen.
 
-    ## picture of play button
+    ![Play button at the top of the screen](assets/play_button.png)
 
     **Check** that your cursor does lock to the *Game* window (it will dissapear), and when confirmed, press `Esc` to free your cursor and press the stop button.
 
-    ## picture of Stop button
+    ![Pause button at the top of the screen](assets/pause_button.png)
 
     !!! tip "Testing"
 
