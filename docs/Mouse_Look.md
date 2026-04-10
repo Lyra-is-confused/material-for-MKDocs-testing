@@ -2,11 +2,11 @@
 
 In this step, We'll create a simple C# script for using the mouse to look around. while simple, this script will have an easily modifyable sensitivity parameter, as well as clamping the rotation so players can't make the camera look inside the capsule.
 
-1. **Select** your **Main Camera** and **click** "Add Component".
+1. **Select** your **Main Camera** and **click** *Add Component*.
 
 1. **Type in** what you want to name your script.
 
-    We'll use *mouselook*. **click** "New Script", and hit enter. Save the script in the same place as your movement Script, and open it up in visual studio.
+    We'll use *mouselook*. **click** *New Script*, and hit enter. Save the script in the same place as your movement Script, and open it up in visual studio.
     You should be met with this:
 
     ```csharp title="mouselook.cs" linenums="1"
@@ -160,7 +160,8 @@ In this step, We'll create a simple C# script for using the mouse to look around
         }
     }
     ```
-## Conclusion
+    
+### Conclusion
 
 In this task, you learned how to: 
 

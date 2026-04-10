@@ -5,7 +5,7 @@ Now that we have created a player model, its time for scripting! In this part of
 
 For this code to work, you **must** be using Unity's old input system! Lets do that first.
 
-1. go to **Edit > Project Settings > Player.** Once you are here, click the "other settings" dropdown.
+1. go to **Edit > Project Settings > Player.** Once you are here, click the *other settings* dropdown.
 
     ![Player Settings](assets/Screenshot%20(57).png "Player Settings")
 
@@ -17,12 +17,12 @@ This is a very simple step, but an important one! We need to enable the old Inpu
 
 ### Adding a script to the player
 
-1. To create your player script, **click** your player object, and in the inspector, **click** "Add Component"
+1. To create your player script, **click** your player object, and in the inspector, **click** *Add Component*
 
 
     ![Adding Script](assets/Screenshot%20(53).png "Add your script")
 
-2. A menu will now pop up. Scroll down to the bottom of the menu, and **select** "New script".  
+2. A menu will now pop up. Scroll down to the bottom of the menu, and **select** *New script*.  
 
 
     ![New Script Page](assets/Screenshot%20(54).png "New Script Page")
@@ -235,7 +235,7 @@ public class MovementScript : MonoBehaviour {
 
     - Semicolons not placed at the end
     - Case-Sensitive errors (such as "Input" not having an uppercase I)
-    - Missing references in the Inspector (CharacterController or GroundCheck not assigned)
+    - Missing references in the Inspector (`CharacterController` or `GroundCheck` not assigned)
     - Ground layer not set correctly
 
     Whenever you finish your code, always make sure to double check for these minor errors

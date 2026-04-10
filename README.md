@@ -14,19 +14,19 @@ These are the topics of this document:
 ---
 We chose Unity as our main topic of this user documentation because we noticed not many CST students are familiar with game development.
 
-Our main communication tool was Discord. We used our lunch breaks to work on this document, as well as after-school time. These In-person meetings helped as collaborate efficiently and we also reduced merge conflicts because of this.
+Our main communication tool was Discord. We used time after school to meet and work on this document. These In-person meetings helped as collaborate efficiently and we also reduced merge conflicts because of this.
 
 ### Using MKdocs
 We used [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/) as our static site generator because it provides easy customizability, helpful admonitions, and syntax highlighting. 
 
 ### Using Markdown
-All pages were written in Markdown with Material for MKDocs to customize the style. 
+All pages were written in Markdown combined with Material for MKDocs to customize the style. 
 
 ### Using VScode
 We used VSCode as our IDE to write all our Markdown files. We used `mkdocs serve --livereload` to stage and view our changes in real time.
 
 ### Conclusion
-Working on this documentation helped us understand ... 
+Working on this documentation helped us understand how to clearly explain technical concepts in a beginner-friendly way, as well as improve our own knowledge of Unity and game development fundamentals. It also gave us experience collaborating as a team and using tools like Markdown and MKDocs to create clean, structured documentation.
 
 we hope this guide serves as a helpful reference to Term 1 CST students, and anyone interested in game development.
 

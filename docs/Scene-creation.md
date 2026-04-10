@@ -23,7 +23,7 @@ In this part of the guide, all we will be doing is adding a platform and creatin
 ### Adding and modifying a platform
 This will give you a bit of familiarity with the tools in the scene editor.
 
-1. **right-click** in the hierarchy window, and a menu will pop up. Go to **3D Object** and **click** "Plane".
+1. **right-click** in the hierarchy window, and a menu will pop up. Go to **3D Object** and **click** *Plane*.
 
     ![3D Object > Plane](assets/makePlane.png "Add new plane")
 
@@ -104,7 +104,7 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
     ![Removing Capsule collider Component](assets/Remove_Component.png "Remove Capsule collider")
 
-1. **Click** "Add Component" at the bottom of the inspector window and search for "Character Controller". click on it to add it to our player object.
+1. **Click** *Add Component* at the bottom of the inspector window and search for "Character Controller". **Click** on it to add it to our player object.
 
     ![Adding Character Controller Component](assets/Add_Component_menu.png "Add Character Controller")
 
@@ -112,7 +112,7 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
     ![Adding Character Controller Component](assets/Reset_Transform.png)
 
-1. **Use the arrows to position the camera**In the scene window roughly at the top of the player capsule.
+1. **Use the arrows to position the camera** In the scene window roughly at the top of the player capsule.
 
     Position it so from a side view, the camera icon pokes just overtop of the capsule.
 
@@ -128,7 +128,7 @@ in order to have a game, we need a player. In order to have a player, we need a 
 
         Parenting is simply attaching one object to another, essentially linking an objects size and position to a parent object.
 
-1. **Right click** on **Player** and select "Create Empty" from the menu (this automatically makes the new empty a child of Player). 
+1. **Right click** on **Player** and select *Create Empty* from the menu (this automatically makes the new empty a child of Player). 
 
 1. **Use the arrows** to move this downwards to roughly the bottom of the capsule.
 

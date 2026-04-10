@@ -45,7 +45,7 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
     This just makes sure you keep your computer organized and makes it easier to keep all game files self-contained for easy in-editor access.
 
 
-1. **Click** on the "+ Create Project" button, and the editor will start up automatically!
+1. **Click** on the *+ Create Project* button, and the editor will start up automatically!
     let the editor boot, and you should be greeted with the basic editor window:
     ![Default Unity Editor Window](assets/FirstTimeEditor.png)
 
