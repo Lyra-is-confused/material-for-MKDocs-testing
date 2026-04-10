@@ -71,7 +71,7 @@ public class MovementScript : MonoBehaviour {
 
     MonoBehaviour is Unity’s base class that allows classes to accept all of Unity’s functions like Awake, Update, etc. A reason not to use MonoBehaviour is if you don’t need any special Unity functionality for that class, which is rare.
 
-Here is the variables needed for our script. Add all this above the **void Update()** function and get rid of the **void Start()** function
+Here is the variables needed for our script. Add all this above the `void Update()` function and get rid of the `void Start()` function
 
 This part of the code is to check if our player is grounded
 
@@ -88,9 +88,9 @@ if (isGrounded && velocity.y < 0)
 }
 ```
 
-CheckSphere creates an invisible sphere under the player.
-If it touches the ground layer → player is grounded,
-the velocity.y = -2f prevents the player from "floating"
+`CheckSphere` creates an invisible sphere under the player.
+If it touches the ground layer, that means the player is grounded.
+`velocity.y = -2f` prevents the player from *floating*
 
 To get player input: 
 
@@ -98,7 +98,7 @@ To get player input:
 float x = Input.GetAxis("Horizontal"); // A/D or Left/Right
 float z = Input.GetAxis("Vertical");   // W/S or Forward/Back
 ```
-Returns values between -1 and 1. 
+`float x` and `float z` return values between -1 and 1. 
 These mappings come from Unity’s Input Manager settings. To check these settings, go to **Edit > Project Settings > Input Manager.**
 
 For controlling player movement

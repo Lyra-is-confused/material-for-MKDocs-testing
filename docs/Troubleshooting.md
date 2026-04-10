@@ -12,7 +12,7 @@
 | Player floating slightly above ground | Ground check too high | Lower the `groundCheck` object slightly below the player |
 | Player falls through floor | `CharacterController` misconfigured | Check `Center`, `Height`, and `Radius` values |
 | Player not rotating with camera | Movement uses player transform only | Add mouse look script to rotate player/camera |
-| Ground detection inconsistent | Sphere too small | Increase `groundDistance` slightly (e.g. 0.4 → 0.5) |
+| Ground detection inconsistent | Sphere too small | Increase `groundDistance` slightly (e.g. change 0.4 to 0.5) |
 | Player clips into walls | Controller step offset too high | Lower `Step Offset` in CharacterController |
 | Console errors (NullReferenceException) | Missing references | Ensure `controller` and `groundCheck` are assigned |
 
