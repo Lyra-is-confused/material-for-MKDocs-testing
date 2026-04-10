@@ -85,13 +85,11 @@ Open the Unity Hub. The Unity hub is how you manage both your projects and your 
 
         ### Awesome, you can now navigate unity, and we can move on to the next topic: **Scene Creation!**
 
-## Conclusion
+### Conclusion
 
-In this task, you learned how to: 
+In this task, you learned how to:
 
-- Create and attach a C# script to a Unity **GameObject**
-- Use CharacterController for movement
-- Implement player input using Unity’s Input system
-- Implement jumping using a physics-based formula
-- Apply gravity to create realistic falling behavior
-- Use ground detection to prevent mid-air jumping
+- Create and set up a new Unity project using Unity Hub.
+- Navigate the Unity Editor and learn about the important sections (Hierarchy, Inspector, Project, and Console).
+- Understand the different templates (Universal 3D vs High Definition).
+- Understand the purpose of different editor tools and how they contribute to game development.

@@ -13,7 +13,6 @@ In this guide, you will:
 - [Create a new Unity Project](Project-creation.md).
 - [Prepare the enivronment/scene and player object](Scene-creation.md).
 - [Add basic movement script to the player object](player-script.md).
-- [Add a basic movement script to the player object](player-script.md).
 - [Add basic camera script to go along with the player object](Mouse_Look.md).
 
 
