@@ -11,7 +11,7 @@ For this code to work, you **must** be using Unity's old input system! Lets do t
 
 2. Once you clicked the dropdown, scroll down to "Active Input Handling" and **select Input Manager (Old)**
 
-    ![Player Settings](assets/Screenshot%20(58).png "Player Settings")
+    ![Input Handling](assets/Screenshot%20(58).png "Enable Input Manager (Old)")
 
 This is a very simple step, but an important one! We need to enable the old Input Manager because our code uses `.GetAxis()` which is part of Unity’s legacy input system. Our code won't work unless that system is active, since the new manager uses a different API, meaning it can't read our code (resulting in errors).
 
