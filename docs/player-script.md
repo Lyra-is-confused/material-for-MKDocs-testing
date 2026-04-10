@@ -1,6 +1,20 @@
 # Creating a Player Script
 Now that we have created a player model, its time for scripting! In this part of the guide, we'll introduce you to programming in C# by writing a simple movement script. Scripting in unity may seem confusing at first, but we will go step-by-step and explain what each codeblock does to simplify thing as much as possible.
 
+### Configuring Input Manager
+
+For this code to work, you **must** be using Unity's old input system! Lets do that first.
+
+1. go to **Edit > Project Settings > Player.** Once you are here, click the "other settings" dropdown.
+
+    ![Player Settings](assets/Screenshot%20(57).png "Player Settings")
+
+2. Once you clicked the dropdown, scroll down to "Active Input Handling" and **select Input Manager (Old)**
+
+    ![Player Settings](assets/Screenshot%20(58).png "Player Settings")
+
+This is a very simple step, but an important one! We need to enable the old Input Manager because our code uses `.GetAxis()` which is part of Unity’s legacy input system. Our code won't work unless that system is active, since the new manager uses a different API, meaning it can't read our code (resulting in errors).
+
 ### Adding a script to the player
 
 1. To create your player script, **click** your player object, and in the inspector, **click** "Add Component"
@@ -23,6 +37,7 @@ Now that we have created a player model, its time for scripting! In this part of
 
     just save your script in this location
 
+
 ### Adding code
 
 This script will provide a basic first-person player movement using Unity's `CharacterController` component. First, you will want to open your **.cs** file in an IDE such as VSCode. 
@@ -34,6 +49,8 @@ Features:
 - Jumping
 - Gravity
 - Ground detection
+
+
 
 ## Variables
 ```csharp
